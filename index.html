@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gokatei Sushi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo Gokatei Sushi" class="header-logo-image">
+            <h1>Gokatei Sushi</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#hero-about">Home</a></li>
+                <li><a href="#menu-categories">Menu</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#contact-section">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero-about" class="hero-about">
+        <div class="hero-about-container">
+            <!-- Left Content -->
+            <div class="hero-content">
+                <p class="welcome-text">Welcome Gokatei Sushi</p>
+                <h1 class="hero-title">Sushi dan Mentai Cake - Pekanbaru</h1>
+                <p class="hero-description">Kami menghadirkan sushi buatan rumah dengan menggunakan 100% nasi Jepang asli yang berkualitas tinggi untuk menjaga keaslian rasa dan kepuasan Anda.</p>
+                <a href="#menu-categories" class="view-menu-btn">View menu</a>
+            </div>
+            
+            <!-- Right Content -->
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="images/hero1.png" alt="Sushi Platter" class="sushi-plate">
+                </div>
+            </div>
+    
+            <!-- Japanese Character Overlay -->
+            <div class="japanese-overlay">
+                寿
+                司
+            </div>
+        </div>
+    </section>   
+
+    <!-- Menu Categories Section (First Page) -->
+    <section id="menu-categories" class="menu-section">
+        <div class="container">
+            <div class="menu-header">
+                <h2 class="title">Menu <span class="italic">Kami</span></h2>
+                <p class="description">Temukan berbagai pilihan menu Japanese food kami yang disiapkan dengan bahan-bahan berkualitas dan teknik tradisional Jepang.</p>
+            </div>
+
+            <div class="categories-grid">
+                <!-- Sushi Roll Category -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="images/sushi roll.png" alt="Sushi Roll">
+                    </div>
+                    <h3>Sushi Roll</h3>
+                    <p>Roll spesial kami yang dibuat dengan menggunakan bahan berkualitas dan menggunakan 100% nasi Jepang</p>
+                </div>
+
+                <!-- Fried Sushi Roll Category -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="images/fried sushi.png" alt="Fried Sushi Roll">
+                    </div>
+                    <h3>Fried Sushi Roll</h3>
+                    <p>Roll yang dilapisi dengan tepung dan digoreng sehingga menghasilkan lapisan luar yang crispy dan delicious</p>
+                </div>
+
+                <!-- Mentai Rice Category -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="images/mentai rice.png" alt="Mentai Rice">
+                    </div>
+                    <h3>Mentai Rice</h3>
+                    <p>Nasi Jepang yang dibumbui, special mentai souce dan berbagai pilihan topping yang melimpah </p>
+                </div>
+
+                <!-- Special Mentai Cake Category -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="images/sushi cake.png" alt="Mentai cake">
+                    </div>
+                    <h3>Sushi Cake</h3>
+                    <p>2 roll sushi yang dibentuk seperti cake</p>
+                </div>
+
+                <!-- Suhsi Cake Category -->
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="images/mentai cake.png" alt="Sushi Cake">
+                    </div>
+                    <h3>Mentai Cake</h3>
+                    <p>Nasi jepang yang di bumbi dibentuk seperti cake yang diberi berbagai pilihan isian dan saus mentai</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Menu Section (Second Page) -->
+    <section id="menu-details" class="menu-section">
+        <div class="container">
+            <div class="menu-header">
+                <h2 class="title">Semua Jenis <span class="italic">Menu Kami</span></h2>
+            </div>
+
+            <div class="menu-slider">
+                <!-- Slide 1 -->
+                <div class="menu-slide active">
+                    <div class="menu-category">
+                        <h3>Sushi Roll</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Chicken Katsu Mentai Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">26k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, chicken katsu, egg, cucumber, metai sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Chicken Katsu Spicy Mayo Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">25k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, chicken katsu, egg, cucumber, spicy metai sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Chicken Katsu Cheesy Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">27k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, chicken katsu, egg, cucumber, cheese sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Chicken Katsu Smoky cheese Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">28k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, chicken katsu, egg, cucumber, smoky cheese sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Ebi Furai Mentai Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">27k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, ebi furai, egg, cucumber, metai sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Ebi Furai Spicy Mayo Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">26k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, ebi furai, egg, cucumber, spicy mayo sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Ebi Furai chessy Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">28k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, ebi furai, egg, cucumber, cheese sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Ebi Furai Somky Cheese Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">29k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, ebi furai, egg, cucumber, smoky cheese sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Kani Katsu Spicy Mayo Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">23k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, kani katsu, egg, cucumber, spicy mayo sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Kani Katsu Mentai roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">24k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, kani katsu, egg, cucumber, mentai sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Kani Katsu Cheesy Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">25k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, kani katsu, egg, cucumber, cheese sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Kani Katsu Smoky Cheese Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">25k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, kani katsu, egg, cucumber, smoky cheese sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Sausage Katsu Spicy Mayo Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">23k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, sausage katsu, egg, cucumber, spicy mayo sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Sausage Katsu Mentai Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">23k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, sausage katsu, egg, cucumber, mentai sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Sausage Katsu Smoky Cheese Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">25k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, sausage katsu, egg, cucumber, mentai sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Sausage Katsu Chessy Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">25k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, sausage katsu, egg, cucumber, cheese sauce</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="menu-slide">
+                    <div class="menu-category">
+                        <h3>Fried Sushi Roll</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Chicken Katsu Mentai Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">29k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, chicken katsu, egg, cucumber, mentai sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Chicken Katsu Spicy Mayo Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">28k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, chicken katsu, egg, cucumber, spicy mayo sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Chicken Katsu Smoky Cheesy Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">30k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, chicken katsu, egg, cucumber, cheese sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Chicken Katsu Smoky Cheese</h4>
+                                <div class="dots"></div>
+                                <span class="price">31k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, chicken katsu, egg, cucumber, smoky cheese sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Ebi Furai Mentai Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">30k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, ebi furai, egg, cucumber, mentai sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Ebi Furai Spicy Mayo Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">29k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, ebi furai, egg, cucumber, spicy mayo sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Ebi Furai Chessy Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">31k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, ebi furai, egg, cucumber, chesse sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Ebi Furai Smoky Cheese</h4>
+                                <div class="dots"></div>
+                                <span class="price">30k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, ebi furai, egg, cucumber, smoky sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Kani Katsu Spicy Mayo Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">25k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, Kani katsu, egg, cucumber, spicy mayo sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Kani Katsu Mentai Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">27k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, Kani katsu, egg, cucumber, mentai sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Kani Katsu Cheesy Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">28k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, Kani katsu, egg, cucumber, chesse sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Kani Katsu Smoky Cheese</h4>
+                                <div class="dots"></div>
+                                <span class="price">29k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, Kani katsu, egg, cucumber, smoky cheese sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Sausage Katsu Spicy Mayo</h4>
+                                <div class="dots"></div>
+                                <span class="price">25k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, sausage katsu, egg, cucumber, spicy mayo sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Sausage Katsu Mentai Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">27k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, sausage katsu, egg, cucumber, mentai sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Sausage Katsu Smoky Cheese</h4>
+                                <div class="dots"></div>
+                                <span class="price">29k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, sausage katsu, egg, cucumber, mentai sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Sausage Katsu Cheesy Roll</h4>
+                                <div class="dots"></div>
+                                <span class="price">28k</span>
+                            </div>
+                            <p class="item-description">Rice, nori, sausage katsu, egg, cucumber, cheese sauce</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="menu-slide">
+                    <div class="menu-category">
+                        <h3>Mentai Rice</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Chicken Katsu, Ebi Furai & Egg</h4>
+                                <div class="dots"></div>
+                                <span class="price">27k</span>
+                            </div>
+                        </div>
+                            <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Chicken Katsu, Ebi Furai, Kani & Egg</h4>
+                                <div class="dots"></div>
+                                <span class="price">28k</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Kani, Sausage & Egg</h4>
+                                <div class="dots"></div>
+                                <span class="price">23k</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Chicken Katsu, Kani & Egg</h4>
+                                <div class="dots"></div>
+                                <span class="price">26k</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Ebi Furai, Kani & Egg</h4>
+                                <div class="dots"></div>
+                                <span class="price">26k</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="menu-slide">
+                    <div class="menu-category">
+                        <h3>Sushi Cake</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Sushi Cake</h4>
+                                <div class="dots"></div>
+                                <span class="price">85k</span>
+                            </div>
+                            <p class="item-description">2 roll sushi (16 potong) yang dibentuk seperti cake (bebas pilih 2 menu sushi apa aja)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 5 -->
+                <div class="menu-slide">
+                    <div class="menu-category">
+                        <h3>Mentai Cake</h3>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fried Paradise</h4>
+                                <div class="dots"></div>
+                                <span class="price">98k</span>
+                            </div>
+                            <p class="item-description">Chicken katsu, ebi furai, kani katsu & egg (Mini Size (diameter 12 cm, tinggi 7 cm))</p>
+                        </div>
+                            <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Teriyaki</h4>
+                                <div class="dots"></div>
+                                <span class="price">98k</span>
+                            </div>
+                            <p class="item-description">Chicken teriyaki, teriyaki shrimp, kani & egg (Mini Size (diameter 12 cm, tinggi 7 cm))</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Creamy Prawn</h4>
+                                <div class="dots"></div>
+                                <span class="price">98k</span>
+                            </div>
+                            <p class="item-description">Grilled prawn, sweet corn, enoki mushroom & egg (Mini Size (diameter 12 cm, tinggi 7 cm))</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Creamy Chicken</h4>
+                                <div class="dots"></div>
+                                <span class="price">98k</span>
+                            </div>
+                            <p class="item-description">Grilled chicken, sweet corn, enoki mushroom & egg (Mini Size (diameter 12 cm, tinggi 7 cm))</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="menu-navigation">
+                <button class="nav-btn prev-btn">&lt;</button>
+                <button class="nav-btn next-btn">&gt;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Galeri</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="images/1.png" alt="Sushi Gallery 1">
+            </div>
+            <div class="gallery-item">
+                <img src="images/2.png" alt="Sushi Gallery 2">
+            </div>
+            <div class="gallery-item">
+                <img src="images/3.png" alt="Sushi Gallery 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-section" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-form">
+                <form action="form-handler.php">
+                    <h3>Hubungi Kami</h3>
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" placeholder="Masukkan Nama Anda" required>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="time">Jam</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Tanggal</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                    </div>
+
+                    <label for="number">Nomor Telepon</label>
+                    <input type="tel" id="number" name="number" placeholder="Masukkan Nomor Anda" required>
+
+                    <button type="submit" class="submit-btn">➤ Pesan Sekarang</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h2>Pesan untuk Petualangan Kuliner Anda di Gokatei Sushi Sekarang!</h2>
+                <p>
+                    Jangan lewatkan kesempatan untuk mencicipi hidangan sushi terbaik dari Gokatei Sushi 
+                    Kami siap melayani Anda dengan cita rasa otentik dan bahan berkualitas terbaik. 
+                    Pesan sekarang dan rasakan pengalaman kuliner yang luar biasa!
+                </p>
+                <div class="contact-details">
+                    <div class="detail">
+                        <span class="icon">📞</span>
+                        <span>0812-6606-5601</span>
+                    </div>
+                    <div class="detail">
+                        <span class="icon">📧</span>
+                        <span>@gokatei.sushi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Quick Links Section -->
+            <div class="hours-section">
+                <ul class="quick-links">
+                    <li><a href="#hero-about">Home</a></li>
+                    <li><a href="#menu-categories">Menu</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#contact-section">Kontak</a></li>
+                </ul>
+            </div>
+    
+            <!-- Logo Section -->
+            <div class="footer-logo-section">
+                <img src="images/logo1.png" alt="Logo Gokatei Sushi" class="logo-image">
+                <p class="footer-logo-text">Gokatei Sushi</p>
+            </div>
+    
+            <!-- Social Media Section -->
+            <div class="footer-social">
+                <h3 class="footer-title">Social Media</h3>
+                <div class="social-links">
+                    <a href="https://tr.ee/Rd3UlYvZjr"><i class="fab fa-instagram"></i></a>
+                    <a href="https://tr.ee/DxPH0vXLwl"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://tr.ee/DSMgmnZmq6"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Copyright Section -->
+        <div class="footer-bottom">
+            <p>Copyright © 2025 | Powered by</p>
+        </div>
+    </footer>
+    <script src="menu.js"></script>
+</body>
+</html>
